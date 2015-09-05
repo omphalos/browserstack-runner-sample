@@ -4,29 +4,16 @@
     "test_framework" : "qunit",
     "test_path": "sample.html",
     "browsers": [
+        "chrome_latest",
         {
-            "browser": "firefox",
-            "browser_version": "latest",
-            "os": "OS X",
-            "os_version": "Lion"
+          "os": "android",
+          "os_version": "4.0",
+          "device": "Samsung Galaxy Nexus"
         },
         {
-            "browser": "safari",
-            "browser_version": "latest",
-            "os": "OS X",
-            "os_version": "Mountain Lion"
-        },
-        {
-            "browser": "chrome",
-            "browser_version": "latest",
-            "os": "OS X",
-            "os_version": "Mountain Lion"
-        },
-        {
-            "browser": "firefox",
-            "browser_version": "latest",
-            "os": "Windows",
-            "os_version": "7"
+          "os": "ios",
+          "os_version": "7.0",
+          "device": "iPhone 5S"
         }
     ]
 }
